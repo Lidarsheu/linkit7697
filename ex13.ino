@@ -36,6 +36,7 @@ void setup()
   //新增通道id
   mcs.addChannel(temp);
   mcs.addChannel(humid);
+  mcs.addChannel(soil);
   mcs.addChannel(MySwitch); 
   mcs.addChannel(MySwitch1);
   mcs.addChannel(slider);
